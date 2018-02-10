@@ -129,7 +129,7 @@
     let n = 1
     let timer = setInterval(() =>{
       codePreview.innerHTML = code.substring(0,n)
-      codePreview.scrollTop = codePreview.scrollHeight
+      codePreview.scrollTop = codePreview.scrollHeight //translateY(-20px)
       style.innerHTML = code.substring(0,n)
       n = n +1
     },1)
