@@ -1,0 +1,35 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+*::after{
+  box-sizing: border-box;
+}
+*::before{
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+}
+#preview_code{
+  background-color: antiquewhite;
+  font-size: 20px;
+  font-weight: 900;
+  height: auto;
+  max-height: 50vh;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: antiquewhite;
+  overflow: hidden;
+}
+#preview_html{
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  height: 50%;
+  width: 100%;
+  background-color: #fdb900;  
+}
